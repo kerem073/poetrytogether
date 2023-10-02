@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
 	"name": "poetry-togetherv2",
 	"version": "0.0.1",
 	"private": true,
@@ -21,4 +22,32 @@
 		"vite": "^4.4.2"
 	},
 	"type": "module"
+=======
+  "name": "poetry-togetherv2",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "prettier --plugin-search-dir . --check . && eslint .",
+    "format": "prettier --plugin-search-dir . --write ."
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/kit": "^1.20.4",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-svelte": "^2.30.0",
+    "prettier": "^2.8.0",
+    "prettier-plugin-svelte": "^2.10.1",
+    "svelte": "^4.0.5",
+    "vite": "^4.4.2"
+  },
+  "type": "module",
+  "description": "Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).",
+  "main": "svelte.config.js",
+  "author": "",
+  "license": "ISC"
+>>>>>>> 09e8326 (test commit form mac)
 }

@@ -4,7 +4,7 @@
 
     import { onMount } from 'svelte'
     
-    let poem = "THis is the test zodat ik kan zien zo dit is een test en nog een desteigeere kshdflls";
+    let poem = "";
     let voted_words = [];
     let timer = 10;
     
